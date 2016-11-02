@@ -1,0 +1,41 @@
+{
+  "name": "posiny-backend",
+  "version": "0.0.1",
+  "description": "A very tiny POS (pos[t]iny) for Vietnamese online shop owners",
+  "main": "index.js",
+  "scripts": {
+    "sails": "cd app/ && sails lift",
+    "build": "babel app -d bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethan605/posiny-backend.git"
+  },
+  "keywords": [
+    "pos",
+    "vietnamese",
+    "shop",
+    "tiny",
+    "backend"
+  ],
+  "author": "Ethan N.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ethan605/posiny-backend/issues"
+  },
+  "homepage": "https://github.com/ethan605/posiny-backend#readme",
+  "dependencies": {
+    "sails": "^0.12.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-root-slash-import": "^1.1.0",
+    "sails-hook-babel": "^6.0.1"
+  },
+  "babel": {
+    "presets": ["es2015"]
+  }
+}

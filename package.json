@@ -4,7 +4,7 @@
   "description": "A very tiny POS (pos[t]iny) for Vietnamese online shop owners",
   "main": "index.js",
   "scripts": {
-    "sails": "cd app/ && sails lift",
+    "sails": "sails lift app/",
     "build": "babel app -d bundle"
   },
   "repository": {
@@ -29,13 +29,12 @@
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
-    "babel-core": "^6.18.2",
-    "babel-polyfill": "^6.16.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-root-slash-import": "^1.1.0",
+    "grunt": "^1.0.1",
     "sails-hook-babel": "^6.0.1"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   }
 }

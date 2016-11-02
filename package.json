@@ -2,10 +2,10 @@
   "name": "posiny-backend",
   "version": "0.0.1",
   "description": "A very tiny POS (pos[t]iny) for Vietnamese online shop owners",
-  "main": "index.js",
+  "private": true,
+  "main": "app.js",
   "scripts": {
-    "sails": "sails lift app/",
-    "build": "babel app -d bundle"
+    "sails": "sails lift"
   },
   "repository": {
     "type": "git",
@@ -25,16 +25,26 @@
   },
   "homepage": "https://github.com/ethan605/posiny-backend#readme",
   "dependencies": {
-    "sails": "^0.12.8"
+    "ejs": "2.3.4",
+    "grunt": "1.0.1",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-coffee": "1.0.0",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-cssmin": "1.0.1",
+    "grunt-contrib-jst": "1.0.0",
+    "grunt-contrib-less": "1.3.0",
+    "grunt-contrib-uglify": "1.0.1",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-sails-linker": "~0.10.1",
+    "grunt-sync": "0.5.2",
+    "include-all": "^1.0.0",
+    "rc": "1.0.1",
+    "sails": "~0.12.8",
+    "sails-disk": "~0.10.9"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
-    "grunt": "^1.0.1",
     "sails-hook-babel": "^6.0.1"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
   }
 }

@@ -15,7 +15,6 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react",
     "flowtype"
   ],
   "rules": {
@@ -34,7 +33,6 @@
     "semi": [
       "error",
       "always"
-    ],
-    "react/jsx-uses-vars": 1
+    ]
   }
 }

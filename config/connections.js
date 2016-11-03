@@ -77,7 +77,7 @@ module.exports.connections = {
   localPostgres: {
     adapter: 'sails-postgresql',
     host: 'localhost',
-    database: 'posiny-development'
+    database: 'posiny_development'
   }
 
 
